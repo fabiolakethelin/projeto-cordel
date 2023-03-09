@@ -9,7 +9,7 @@
 
 
 html, body {
-    min-height: 100vh; /* A ALTURA MIN DO BODY É DE 100% DA TELA */
+    min-height: 100vh;
     background-color: darkgray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -22,8 +22,8 @@ header {
 
 header > h1{
     font-family: 'Passion One', 'cursive';
-    font-variant: small-caps; /* TODAS LETRAS MAISCULAS POREM AS INICIAS DE CADA PALAVRA É MAIOR QUE AS OUTRAS */
-    font-size: 10vw; /* 10% da largura da tela */
+    font-variant: small-caps;
+    font-size: 10vw;
     font-weight: bold;
     padding-top: 50px;
 }
@@ -61,7 +61,7 @@ section p {
 .img p {
     background-color: rgba(0, 0, 0, 0.589);
     padding: 5px;
-    display: inline-block; /* O TAMANHO DO BACKGROUND "BLOCO" IRÁ SE ADAPTAR AO TAMANHO DO CONTEUDO */
+    display: inline-block;
 }
 
 #primeiro {
